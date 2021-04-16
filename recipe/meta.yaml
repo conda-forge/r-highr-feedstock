@@ -1,4 +1,4 @@
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/highr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/highr/highr_{{ version }}.tar.gz
-  sha256: 4bd01fba995f68c947a99bdf9aca15327a5320151e10bd0326fad50a6d8bc657
+  sha256: beff11390d936c90fdcc00e7ed0eb72220f3de403a51b56659e3d3e0b6d8ed4d
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
 
   rpaths:
     - lib/R/lib/
