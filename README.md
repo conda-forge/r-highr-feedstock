@@ -1,11 +1,11 @@
-About r-highr
-=============
+About r-highr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-highr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/yihui/highr
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-highr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides syntax highlighting for R source code. Currently it supports LaTeX and HTML output. Source code of other languages is supported via Andre Simon's highlight package (<http://www.andre-simon.de>).
 
